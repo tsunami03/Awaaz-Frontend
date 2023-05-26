@@ -25,7 +25,7 @@ let data = JSON.stringify({
 let config = {
   method: "post",
   maxBodyLength: Infinity,
-  url: "http://localhost:3000/api/v1/auth/register",
+  url: "https://awaaz-backend.onrender.com/api/v1/auth/register",
   headers: {
     "Content-Type": "application/json",
   },

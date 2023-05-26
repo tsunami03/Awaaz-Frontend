@@ -9,7 +9,7 @@ export default function MyGrievance(props) {
   let config = {
     method: "get",
     maxBodyLength: Infinity,
-    url: "http://localhost:3000/api/v1/complaints",
+    url: "https://awaaz-backend.onrender.com/api/v1/complaints",
     headers: {
       Authorization: `Bearer ${token}`,
     },
@@ -39,7 +39,7 @@ export default function MyGrievance(props) {
     let config = {
       method: "patch",
       maxBodyLength: Infinity,
-      url: `http://localhost:3000/api/v1/complaints/${id}`,
+      url: `https://awaaz-backend.onrender.com/api/v1/complaints/${id}`,
       headers: {
         Authorization:
           `Bearer ${token}`,
@@ -63,7 +63,7 @@ export default function MyGrievance(props) {
     let config2 = {
       method: "patch",
       maxBodyLength: Infinity,
-      url: `http://localhost:3000/api/v1/complaints/reminder/${id}`,
+      url: `https://awaaz-backend.onrender.com/api/v1/complaints/reminder/${id}`,
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -99,7 +99,7 @@ console.log(rating);
       let config3 = {
         method: "patch",
         maxBodyLength: Infinity,
-        url: `http://localhost:3000/api/v1/complaints/rateOfficer/${id}`,
+        url: `https://awaaz-backend.onrender.com/api/v1/complaints/rateOfficer/${id}`,
         headers: {
           "Content-Type": "application/json",
           Authorization:
@@ -127,7 +127,7 @@ console.log(rating);
     let config = {
       method: "delete",
       maxBodyLength: Infinity,
-      url: `http://localhost:3000/api/v1/complaints/${id}`,
+      url: `https://awaaz-backend.onrender.com/api/v1/complaints/${id}`,
       headers: {
         Authorization:
           `Bearer ${token}`,

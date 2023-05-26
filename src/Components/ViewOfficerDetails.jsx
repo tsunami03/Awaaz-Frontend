@@ -7,7 +7,7 @@ export default function MyGrievance(props) {
      let config = {
        method: "get",
        maxBodyLength: Infinity,
-       url: "http://localhost:3000/api/v1/manage/getOfficerData",
+       url: "https://awaaz-backend.onrender.com/api/v1/manage/getOfficerData",
        headers: {
          Authorization: `Bearer ${token}`,
        },

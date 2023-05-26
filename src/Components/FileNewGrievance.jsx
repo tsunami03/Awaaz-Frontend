@@ -12,7 +12,7 @@ function FileNewGrievance(props) {
  let config = {
    method: "post",
    maxBodyLength: Infinity,
-   url: "http://localhost:3000/api/v1/complaints/",
+   url: "https://awaaz-backend.onrender.com/api/v1/complaints/",
    headers: {
      Authorization:
        `Bearer ${token}`,

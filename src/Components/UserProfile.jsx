@@ -8,7 +8,7 @@ export default function UserProfile(props){
   let config = {
     method: "get",
     maxBodyLength: Infinity,
-    url: "http://localhost:3000/api/v1/user",
+    url: "https://awaaz-backend.onrender.com/api/v1/user",
     headers: {
       Authorization:
         `Bearer ${token}`,

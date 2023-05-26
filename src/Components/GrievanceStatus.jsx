@@ -7,7 +7,7 @@ export default function GrievanceStatus(props) {
   let config = {
     method: "get",
     maxBodyLength: Infinity,
-    url: "http://localhost:3000/api/v1/tasks",
+    url: "https://awaaz-backend.onrender.com/api/v1/tasks",
     headers: {
       Authorization: `Bearer ${token}`,
     },
@@ -42,7 +42,7 @@ export default function GrievanceStatus(props) {
     let config2 = {
       method: "patch",
       maxBodyLength: Infinity,
-      url: `http://localhost:3000/api/v1/tasks/pass/${id}`,
+      url: `https://awaaz-backend.onrender.com/api/v1/tasks/pass/${id}`,
       headers: {
         Authorization: `Bearer ${token}`,
       },

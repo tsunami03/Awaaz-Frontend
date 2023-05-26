@@ -27,7 +27,7 @@ export default function ForgotPassword() {
           let config = {
             method: "post",
             maxBodyLength: Infinity,
-            url: "http://localhost:3000/api/v1/auth/forgot-password",
+            url: "https://awaaz-backend.onrender.com/api/v1/auth/forgot-password",
             headers: {
               "Content-Type": "application/json",
             },

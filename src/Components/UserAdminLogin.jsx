@@ -17,7 +17,7 @@ function Login(props){
  let config = {
    method: "post",
    maxBodyLength: Infinity,
-   url: (user=="Citizen"?("http://localhost:3000/api/v1/auth/login"):(user=="Officer"?("http://localhost:3000/api/v1/auth/officer/login"):("http://localhost:3000/api/v1/auth/admin/login"))) ,
+   url: (user=="Citizen"?("https://awaaz-backend.onrender.com/api/v1/auth/login"):(user=="Officer"?("https://awaaz-backend.onrender.com/api/v1/auth/officer/login"):("https://awaaz-backend.onrender.com/api/v1/auth/admin/login"))) ,
    headers: {
      Authorization: "Bearer ",
      "Content-Type": "application/json",

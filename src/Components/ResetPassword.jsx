@@ -39,7 +39,7 @@ export default function ForgotPassword() {
         let config = {
             method: "post",
             maxBodyLength: Infinity,
-            url: "http://localhost:3000/api/v1/auth/reset-password",
+            url: "https://awaaz-backend.onrender.com/api/v1/auth/reset-password",
             headers: {
                 "Content-Type": "application/json",
             },

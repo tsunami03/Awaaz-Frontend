@@ -8,7 +8,7 @@ export default function MainAdminProfile(props) {
     let config = {
       method: "get",
       maxBodyLength: Infinity,
-      url: "http://localhost:3000/api/v1/manage/",
+      url: "https://awaaz-backend.onrender.com/api/v1/manage/",
       headers: {
         "Content-Type": "application/json",
         Authorization:

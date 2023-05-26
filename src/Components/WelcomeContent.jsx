@@ -69,7 +69,7 @@ const navigate=useNavigate();
       setLoading(true);
    try {
       const response = await axios.post(
-        "http://localhost:3000/api/v1/auth/register",
+        "https://awaaz-backend.onrender.com/api/v1/auth/register",
         data
       );
       setLoading(false);
